@@ -28,6 +28,7 @@
                Margin="0,100,0,50"/>
         <Button x:Name="btnReiniciar"
                 Text="Reiniciar"
+                Clicked="btnReiniciar_Clicked"
                 WidthRequest="120"
                 HeightRequest="50"
                 VerticalOptions="End"

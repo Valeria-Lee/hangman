@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\valeria\source\repos\Hangman\Hangman\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-11-12T15:06:17.650</Modified>
+      <Modified>2024-11-12T15:53:32.701</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\valeria\source\repos\Hangman\Hangman\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Hangman.dll">
       <PackagePath>Hangman.dll</PackagePath>
-      <Modified>2024-11-12T15:06:17.136</Modified>
+      <Modified>2024-11-12T15:53:31.374</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\valeria\source\repos\Hangman\Hangman\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Hangman.exe</PackagePath>
-      <Modified>2024-11-12T15:06:17.143</Modified>
+      <Modified>2024-11-12T15:53:31.428</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\valeria\source\repos\Hangman\Hangman\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

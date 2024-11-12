@@ -123,5 +123,18 @@ namespace Hangman {
             ManejarLetra(letra);
             Debug.Write(letra);
         }
+
+        private void btnReiniciar_Clicked(object sender, EventArgs e) {
+            respuesta = "";
+            seleccionadas.Clear();
+            errores = 0;
+            Estado = "Errores: 0 de 6";
+            Imagen = "img0.jpg";
+            Mensaje = string.Empty;
+
+            escogerPalabra();
+
+            EnmascararPalabra(respuesta, seleccionadas);
+        }
     }
 }
