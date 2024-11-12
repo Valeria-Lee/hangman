@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Hangman</id>
+    <version>1.0.0</version>
+    <authors>Hangman</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0-android34.0">
+        <dependency id="Microsoft.Extensions.Logging.Debug" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Controls" version="8.0.82" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Controls.Compatibility" version="8.0.82" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0-ios18.0">
+        <dependency id="Microsoft.Extensions.Logging.Debug" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Controls" version="8.0.82" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Controls.Compatibility" version="8.0.82" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0-maccatalyst18.0">
+        <dependency id="Microsoft.Extensions.Logging.Debug" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Controls" version="8.0.82" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Controls.Compatibility" version="8.0.82" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0-windows10.0.19041">
+        <dependency id="Microsoft.Extensions.Logging.Debug" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Controls" version="8.0.82" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Controls.Compatibility" version="8.0.82" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\valeria\source\repos\Hangman\Hangman\bin\Debug\net8.0-android\Hangman.runtimeconfig.json" target="lib\net8.0-android34.0\Hangman.runtimeconfig.json" />
+    <file src="C:\Users\valeria\source\repos\Hangman\Hangman\bin\Debug\net8.0-android\Hangman.dll" target="lib\net8.0-android34.0\Hangman.dll" />
+    <file src="C:\Users\valeria\source\repos\Hangman\Hangman\bin\Debug\net8.0-android\Hangman.xml" target="lib\net8.0-android34.0\Hangman.xml" />
+    <file src="C:\Users\valeria\source\repos\Hangman\Hangman\bin\Debug\net8.0-ios\iossimulator-x64\Hangman.runtimeconfig.json" target="lib\net8.0-ios18.0\Hangman.runtimeconfig.json" />
+    <file src="C:\Users\valeria\source\repos\Hangman\Hangman\bin\Debug\net8.0-ios\iossimulator-x64\Hangman.dll" target="lib\net8.0-ios18.0\Hangman.dll" />
+    <file src="C:\Users\valeria\source\repos\Hangman\Hangman\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Hangman.runtimeconfig.json" target="lib\net8.0-maccatalyst18.0\Hangman.runtimeconfig.json" />
+    <file src="C:\Users\valeria\source\repos\Hangman\Hangman\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Hangman.dll" target="lib\net8.0-maccatalyst18.0\Hangman.dll" />
+    <file src="C:\Users\valeria\source\repos\Hangman\Hangman\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Hangman.runtimeconfig.json" target="lib\net8.0-windows10.0.19041\Hangman.runtimeconfig.json" />
+    <file src="C:\Users\valeria\source\repos\Hangman\Hangman\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Hangman.dll" target="lib\net8.0-windows10.0.19041\Hangman.dll" />
+    <file src="C:\Users\valeria\source\repos\Hangman\Hangman\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri" target="lib\net8.0-windows10.0.19041\resources.pri" />
+  </files>
+</package>

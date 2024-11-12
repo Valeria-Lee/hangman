@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hangman.MainPage">
+
+    <Grid
+        ColumnDefinitions="1*"
+        RowDefinitions="6*,4*">
+
+        <Label x:Name="lblErrores"
+            Text="{ Binding Estado }"
+            HorizontalOptions="Center"
+            VerticalOptions="Start"/>
+        <Image x:Name="imgAhorcado"
+               Source="{ Binding Imagen }"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               Margin="0,0,0,100"/>
+        <Label x:Name="lblPalabra"
+               Text="{ Binding Spotlight }"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               Margin="0,150,0,0"/>
+        <Label x:Name="lblMensaje"
+               Text="{ Binding Mensaje }"
+               HorizontalOptions="Center"
+               VerticalOptions="End"
+               Margin="0,100,0,50"/>
+        <Button x:Name="btnReiniciar"
+                Text="Reiniciar"
+                WidthRequest="120"
+                HeightRequest="50"
+                VerticalOptions="End"
+                Margin="0,300,0,0"/>
+
+        <FlexLayout Grid.Row="1"
+             Wrap="Wrap"
+             JustifyContent="SpaceEvenly"
+             BindableLayout.ItemsSource="{Binding Letras}">
+            <BindableLayout.ItemTemplate>
+                <DataTemplate>
+                    <Button
+                    Text="{Binding .}"
+                    Clicked="Button_Clicked"
+                    Margin="1,2"
+                    HeightRequest="50"
+                    WidthRequest="50"/>
+                </DataTemplate>
+            </BindableLayout.ItemTemplate>
+        </FlexLayout>
+
+    </Grid>
+
+</ContentPage>
